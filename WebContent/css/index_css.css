@@ -1,0 +1,125 @@
+.all{
+				margin: auto;
+				/*width:100%;*/
+				width: 1000px;
+			}
+			#logo_left{
+				float: left;
+			}
+			#logo_right{
+				float: right;
+				padding: 20px 5px 0px;
+			}
+			#logo_right a:link{
+				color:black;
+			}
+			#logo_right a:visited{
+				color:midnightblue;
+			}
+			#logo_right a:hover{
+				color:#ccc;
+			}
+			#logo_right a:active{
+				color:brown;
+			}
+			.clear{
+				clear: both;
+			}
+			.lead{
+				width:100%;
+				height:50px;
+				background-color: #ccc;
+			}
+			.lead_detail{
+				float: left;
+				margin-top:20px;
+				margin-right:auto;
+				margin-bottom:5px ;
+				margin-left: 20px;
+				/*font-size: 15px;
+				text-decoration: none;*/
+			}
+			.lead_detail a{
+				font-size: 15px;
+				text-decoration: none;
+			}
+			.lead_detail a:link{
+				color:floralwhite;
+			}
+			.lead_detail a:visited{
+				color:#00008B;
+			}
+			.lead_detail a:hover{
+				color:cadetblue;
+			}
+			.lead_detail a:active{
+				color:brown;
+			}
+			#list_left{
+				float: left;
+				width: 25%;
+				height: 400px;
+			}
+			#list_right{
+				float: left;
+				width: 75%;
+				/*height: 400px;*/
+			}
+			.element{
+				text-align: center;
+				float: left;
+				display:inline;
+				/* width: 25%; */
+				width:225px;
+				height:197px;
+				/*height: 200px;*/
+			}
+			.element img{
+				width:130px;
+				hegiht:130px;
+				margin: auto;
+				text-align: center;
+			}
+			.element p{
+				margin: auto;
+				text-align: center;
+			}
+			.link1{
+				margin: auto;/*让class为link的div水平居中*/
+				text-align: center;/*让class为link的div中的文字和图片居中*/
+				margin-top:15px;
+				margin-bottom:15px ;
+			}
+			.link1 a{
+				text-decoration: none;
+			}
+			.link1 a:link{
+				color:#666;
+			}
+			.link1 a:visited{
+				color:black;
+			}
+			.link1 a:hover{
+				color:darkblue;
+			}
+			.link1 a:active{
+				color:darkgoldenrod;
+			}
+			#copy{
+				text-align: center;
+				margin-top:15px;
+				margin-bottom:15px ;
+				/*border: 1px solid black;*/
+			}
+			#pageUl li{
+				display:inline;
+			}
+			#pageLi{
+				font-size:18px;
+				color:#666;
+			}
+			li a{
+				display:inline;
+				text-decoration:none;
+			}
+			

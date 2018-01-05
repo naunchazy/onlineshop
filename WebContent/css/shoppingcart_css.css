@@ -1,0 +1,75 @@
+@CHARSET "UTF-8";
+			.all{
+				margin: auto;
+				/*width:100%;*/
+				width: 1000px;
+			}
+			.settlement {
+				width:142px;
+				height:46px;
+				text-align:center;
+				font-weight:bold;
+				font-family:Arial,sans-serif;
+				font-size:18px;
+				border-radius:0.5em;
+				/*border-top-left-radius:0.5em;
+				border-top-right-radius:0.5em;
+				border-bottom-left-radius:0.5em;
+				border-bottom-right-radius:0.5em; */
+				color:#fefee9;
+				background-color:#e4123d;
+			 }
+			#logo_left{
+				float: left;
+			}
+			#logo_right{
+				float: right;
+				padding: 20px 5px 0px;
+			}
+			#logo_right a:link{
+				color:black;
+			}
+			#logo_right a:visited{
+				color:midnightblue;
+			}
+			#logo_right a:hover{
+				color:#ccc;
+			}
+			#logo_right a:active{
+				color:brown;
+			}
+			.clear{
+				clear: both;
+			}
+			.link1{
+				margin: auto;/*让class为link的div水平居中*/
+				text-align: center;/*让class为link的div中的文字和图片居中*/
+				margin-top:15px;
+				margin-bottom:15px ;
+			}
+			.link1 a{
+				text-decoration: none;
+			}
+			.link1 a:link{
+				color:#666;
+			}
+			.link1 a:visited{
+				color:black;
+			}
+			.link1 a:hover{
+				color:darkblue;
+			}
+			.link1 a:active{
+				color:darkgoldenrod;
+			}
+			#copy{
+				text-align: center;
+				margin-top:15px;
+				margin-bottom:15px ;
+				/*border: 1px solid black;*/
+			}
+			td a{
+				/* display:inline; */
+				text-decoration:none;
+			}
+			

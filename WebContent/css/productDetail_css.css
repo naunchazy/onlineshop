@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+.all{
+		margin: auto;
+		/* width:100%; */
+		width: 900px;
+		/* border:1px; */
+}
+.left{
+	width:"50%";
+	float:left;
+	
+}
+.right{
+	width:"50%";
+	float:left;
+	
+}
+.clear{
+	clear: both;
+}
+.market_price{
+	text-decoration:line-through;
+}
+ .mybtn {
+	width:142px;
+	height:46px;
+	text-align:center;
+	font-weight:bold;
+	font-family:Arial,sans-serif;
+	font-size:18px;
+	border-radius:0.5em;
+	/*border-top-left-radius:0.5em;
+	border-top-right-radius:0.5em;
+	border-bottom-left-radius:0.5em;
+	border-bottom-right-radius:0.5em; */
+	color:#fefee9;
+	background-color:#e4123d;
+ }
